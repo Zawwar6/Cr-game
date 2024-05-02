@@ -1,0 +1,63 @@
+*{
+    background-image: url(3.jpg);
+    color: white;
+    opacity: 10;
+}
+.hide {
+    display: none;
+}
+.teams {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border:2px solid white;
+}
+div#team-selection .team {
+    padding: 6px;
+    height: 80px;
+    width: 150px;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+    border: 2px solid gray;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+    cursor: pointer;
+}
+  
+div#team-selection .selected-team {
+    border-color: red;
+}
+.your-team {
+    text-decoration: underline;
+  }
+#your-selection-text{
+    text-align: center;
+}
+#opon-selection-text{
+    text-align: center;
+}
+#user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#user input{
+    margin-top: 50%;
+    border-radius:10px;
+    padding: 10px;
+    color: #fff;
+}
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
